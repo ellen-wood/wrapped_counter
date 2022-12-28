@@ -42,8 +42,6 @@ module wrapped_counter (
     output wire [`MPRJ_IO_PADS-1:0] io_out,
     output wire [`MPRJ_IO_PADS-1:0] io_oeb,
 `endif
-    //JW MODIFICATION 
-    input wire [`MPRJ_IO_PADS-1:0] buf_io_out,
     
 
 
@@ -57,13 +55,25 @@ module wrapped_counter (
     input wire user_clock2,
 `endif
     
-    // active input, only connect tristated outputs if this is high
-    input wire active
+    
+    //active input, ( only connect tristated outputs if this is high) 
+    input wire active,
+
+    //JW misc bits to output onto chip pins ( only connect if   active (see above ) is high
+    input wire [7:0] chip_pin_output_bit,
+
+    input wire clk_blip //For the crosstalk event counts
 );
-
+   
+    wire [`MPRJ_IO_PADS-1:0] buf_io_out;
+ 
+    //JW counter and other bits go out to  buf_io_out  and tristated to chip pins
     wire[7:0] buf_io_out_LOWER_8_BITS;
-
-    assign buf_io_out[7:0] = buf_io_out_LOWER_8_BITS;
+    //Wire up the sources 
+    assign buf_io_out[7:0] = 8'b0;
+    assign buf_io_out[15:8] = buf_io_out_LOWER_8_BITS[7:0] ;
+    assign buf_io_out[23:16] = chip_pin_output_bit[7:0] ;
+    assign buf_io_out[37:24] = 14'b0;
 
     // all outputs must be tristated before being passed onto the project
    /* wire buf_wbs_ack_o;
@@ -115,9 +125,9 @@ module wrapped_counter (
 
 
         counter DUT (
-            .clk(io_in[0]),
-            .count(buf_io_out_LOWER_8_BITS[7:0]),
-            .reset(io_in[1])
+            .clk(clk_blip),
+            .count(buf_io_out_LOWER_8_BITS),
+            .reset(io_in[8])
             );
 
 
