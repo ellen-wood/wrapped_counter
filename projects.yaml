@@ -59,8 +59,8 @@ docs:
 
 projects:
     # change the name, repo and the commit to match your project. You can set the commit to be a branch or a gitsha
-    wrapped_analog_projects:
-        repo:   'https://github.com/ellen-wood/wrapped_analog_projects'
+    wrapped_counter:
+        repo:   'https://github.com/ellen-wood/wrapped_counter'
         commit: 'main'
         pos:    '0 0 N'
 
