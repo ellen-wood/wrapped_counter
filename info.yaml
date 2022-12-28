@@ -1,14 +1,16 @@
 --- 
 # information
 project: 
-  title: "title"
-  description: "description"
-  picture: docs/empty.png
-  author: "Author"
+  title: "wrapped_counter"
+  description: "Collection of analog projects and test structures, including analog mux and a counter wrapped in a new analog-compatible wrapper"
+  picture: docs/analog_projects.jpg
+  author: "Ellen Rogers"
   license: LICENSE
+  waive_caravel: 'no caravel test for modified wrapper'
+  waive_module_test:  'no module test for modified wrapper'
 
 # optional interfaces you want to use: gpio, la1, la2, la3, irq, clk2, wishbone & openram
-interfaces: ['la1', 'gpio']
+interfaces: ['gpio']
 
 # test within caravel
 caravel_test:
@@ -35,11 +37,11 @@ openlane:
 # source required for various configs and module instantiation
 source:
     - wrapper.v
-    - other source files here
+    - counter/src/counter.v
 
 # gds - check nothing on metal 5, DRC & LVS
 final:
   directory: "final"
-  gds_filename: "gds/project.gds"
-  lvs_filename: "verilog/gl/project.v"
-  lef_filename: "lef/project.lef"
+  gds_filename: "gds/wrapped_counter.gds"
+  lvs_filename: "verilog/gl/wrapped_counter.v"
+  lef_filename: "lef/wrapped_counter.lef"
