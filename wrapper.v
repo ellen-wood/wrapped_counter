@@ -124,7 +124,7 @@ module wrapped_counter (
     assign buf_io_oeb = {`MPRJ_IO_PADS{1'b0}};
 
 
-        counter DUT (
+        counter counter (
             .clk(clk_blip),
             .count(buf_io_out_LOWER_8_BITS),
             .reset(io_in[8])
