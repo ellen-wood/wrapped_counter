@@ -76,13 +76,12 @@ module wrapped_counter (
     assign buf_io_out[37:24] = 14'b0;
 
     // all outputs must be tristated before being passed onto the project
-   /* wire buf_wbs_ack_o;
-    wire [31:0] buf_wbs_dat_o;
-    wire [31:0] buf_la1_data_out;
+    //wire buf_wbs_ack_o;
+    //wire [31:0] buf_wbs_dat_o;
+    //wire [31:0] buf_la1_data_out;
     wire [`MPRJ_IO_PADS-1:0] buf_io_out;
     wire [`MPRJ_IO_PADS-1:0] buf_io_oeb;
-    wire [2:0] buf_irq;
-*/
+    //wire [2:0] buf_irq;
 
     `ifdef FORMAL
     // formal can't deal with z, so set all outputs to 0 if not active
