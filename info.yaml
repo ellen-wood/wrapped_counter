@@ -17,7 +17,7 @@ caravel_test:
   recipe: "coco_test"
   directory: "caravel_test"
   id: 1
-  module_name: "wrapped_project"
+  module_name: "wrapped_counter"
 
 # module test
 module_test:
