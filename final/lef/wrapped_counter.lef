@@ -11,8 +11,8 @@ MACRO wrapped_counter
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER met3 ;
-        RECT 0.000 11.300 4.000 12.500 ;
+      LAYER met2 ;
+        RECT 8.690 246.000 9.250 250.000 ;
     END
   END active
   PIN chip_pin_output_bit[0]
@@ -20,7 +20,7 @@ MACRO wrapped_counter
     USE SIGNAL ;
     PORT
       LAYER met2 ;
-        RECT 14.210 246.000 14.770 250.000 ;
+        RECT 108.050 246.000 108.610 250.000 ;
     END
   END chip_pin_output_bit[0]
   PIN chip_pin_output_bit[1]
@@ -28,7 +28,7 @@ MACRO wrapped_counter
     USE SIGNAL ;
     PORT
       LAYER met2 ;
-        RECT 41.810 246.000 42.370 250.000 ;
+        RECT 124.610 246.000 125.170 250.000 ;
     END
   END chip_pin_output_bit[1]
   PIN chip_pin_output_bit[2]
@@ -36,7 +36,7 @@ MACRO wrapped_counter
     USE SIGNAL ;
     PORT
       LAYER met2 ;
-        RECT 69.410 246.000 69.970 250.000 ;
+        RECT 141.170 246.000 141.730 250.000 ;
     END
   END chip_pin_output_bit[2]
   PIN chip_pin_output_bit[3]
@@ -44,7 +44,7 @@ MACRO wrapped_counter
     USE SIGNAL ;
     PORT
       LAYER met2 ;
-        RECT 97.010 246.000 97.570 250.000 ;
+        RECT 157.730 246.000 158.290 250.000 ;
     END
   END chip_pin_output_bit[3]
   PIN chip_pin_output_bit[4]
@@ -52,7 +52,7 @@ MACRO wrapped_counter
     USE SIGNAL ;
     PORT
       LAYER met2 ;
-        RECT 124.610 246.000 125.170 250.000 ;
+        RECT 174.290 246.000 174.850 250.000 ;
     END
   END chip_pin_output_bit[4]
   PIN chip_pin_output_bit[5]
@@ -60,7 +60,7 @@ MACRO wrapped_counter
     USE SIGNAL ;
     PORT
       LAYER met2 ;
-        RECT 152.210 246.000 152.770 250.000 ;
+        RECT 190.850 246.000 191.410 250.000 ;
     END
   END chip_pin_output_bit[5]
   PIN chip_pin_output_bit[6]
@@ -68,7 +68,7 @@ MACRO wrapped_counter
     USE SIGNAL ;
     PORT
       LAYER met2 ;
-        RECT 179.810 246.000 180.370 250.000 ;
+        RECT 207.410 246.000 207.970 250.000 ;
     END
   END chip_pin_output_bit[6]
   PIN chip_pin_output_bit[7]
@@ -76,7 +76,7 @@ MACRO wrapped_counter
     USE SIGNAL ;
     PORT
       LAYER met2 ;
-        RECT 207.410 246.000 207.970 250.000 ;
+        RECT 223.970 246.000 224.530 250.000 ;
     END
   END chip_pin_output_bit[7]
   PIN clk_blip
@@ -84,7 +84,7 @@ MACRO wrapped_counter
     USE SIGNAL ;
     PORT
       LAYER met2 ;
-        RECT 235.010 246.000 235.570 250.000 ;
+        RECT 240.530 246.000 241.090 250.000 ;
     END
   END clk_blip
   PIN io_in[0]
@@ -92,31 +92,31 @@ MACRO wrapped_counter
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT 0.000 17.420 4.000 18.620 ;
+        RECT 0.000 18.780 4.000 19.980 ;
     END
   END io_in[0]
   PIN io_in[10]
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER met3 ;
-        RECT 0.000 78.620 4.000 79.820 ;
+      LAYER met2 ;
+        RECT 58.370 246.000 58.930 250.000 ;
     END
   END io_in[10]
   PIN io_in[11]
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER met3 ;
-        RECT 0.000 84.740 4.000 85.940 ;
+      LAYER met2 ;
+        RECT 74.930 246.000 75.490 250.000 ;
     END
   END io_in[11]
   PIN io_in[12]
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER met3 ;
-        RECT 0.000 90.860 4.000 92.060 ;
+      LAYER met2 ;
+        RECT 91.490 246.000 92.050 250.000 ;
     END
   END io_in[12]
   PIN io_in[13]
@@ -124,7 +124,7 @@ MACRO wrapped_counter
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT 0.000 96.980 4.000 98.180 ;
+        RECT 0.000 73.180 4.000 74.380 ;
     END
   END io_in[13]
   PIN io_in[14]
@@ -132,7 +132,7 @@ MACRO wrapped_counter
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT 0.000 103.100 4.000 104.300 ;
+        RECT 0.000 79.980 4.000 81.180 ;
     END
   END io_in[14]
   PIN io_in[15]
@@ -140,7 +140,7 @@ MACRO wrapped_counter
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT 0.000 109.220 4.000 110.420 ;
+        RECT 0.000 86.780 4.000 87.980 ;
     END
   END io_in[15]
   PIN io_in[16]
@@ -148,7 +148,7 @@ MACRO wrapped_counter
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT 0.000 115.340 4.000 116.540 ;
+        RECT 0.000 93.580 4.000 94.780 ;
     END
   END io_in[16]
   PIN io_in[17]
@@ -156,7 +156,7 @@ MACRO wrapped_counter
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT 0.000 121.460 4.000 122.660 ;
+        RECT 0.000 100.380 4.000 101.580 ;
     END
   END io_in[17]
   PIN io_in[18]
@@ -164,7 +164,7 @@ MACRO wrapped_counter
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT 0.000 127.580 4.000 128.780 ;
+        RECT 0.000 107.180 4.000 108.380 ;
     END
   END io_in[18]
   PIN io_in[19]
@@ -172,7 +172,7 @@ MACRO wrapped_counter
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT 0.000 133.700 4.000 134.900 ;
+        RECT 0.000 113.980 4.000 115.180 ;
     END
   END io_in[19]
   PIN io_in[1]
@@ -180,7 +180,7 @@ MACRO wrapped_counter
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT 0.000 23.540 4.000 24.740 ;
+        RECT 0.000 25.580 4.000 26.780 ;
     END
   END io_in[1]
   PIN io_in[20]
@@ -188,7 +188,7 @@ MACRO wrapped_counter
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT 0.000 139.820 4.000 141.020 ;
+        RECT 0.000 120.780 4.000 121.980 ;
     END
   END io_in[20]
   PIN io_in[21]
@@ -196,7 +196,7 @@ MACRO wrapped_counter
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT 0.000 145.940 4.000 147.140 ;
+        RECT 0.000 127.580 4.000 128.780 ;
     END
   END io_in[21]
   PIN io_in[22]
@@ -204,7 +204,7 @@ MACRO wrapped_counter
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT 0.000 152.060 4.000 153.260 ;
+        RECT 0.000 134.380 4.000 135.580 ;
     END
   END io_in[22]
   PIN io_in[23]
@@ -212,7 +212,7 @@ MACRO wrapped_counter
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT 0.000 158.180 4.000 159.380 ;
+        RECT 0.000 141.180 4.000 142.380 ;
     END
   END io_in[23]
   PIN io_in[24]
@@ -220,7 +220,7 @@ MACRO wrapped_counter
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT 0.000 164.300 4.000 165.500 ;
+        RECT 0.000 147.980 4.000 149.180 ;
     END
   END io_in[24]
   PIN io_in[25]
@@ -228,7 +228,7 @@ MACRO wrapped_counter
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT 0.000 170.420 4.000 171.620 ;
+        RECT 0.000 154.780 4.000 155.980 ;
     END
   END io_in[25]
   PIN io_in[26]
@@ -236,7 +236,7 @@ MACRO wrapped_counter
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT 0.000 176.540 4.000 177.740 ;
+        RECT 0.000 161.580 4.000 162.780 ;
     END
   END io_in[26]
   PIN io_in[27]
@@ -244,7 +244,7 @@ MACRO wrapped_counter
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT 0.000 182.660 4.000 183.860 ;
+        RECT 0.000 168.380 4.000 169.580 ;
     END
   END io_in[27]
   PIN io_in[28]
@@ -252,7 +252,7 @@ MACRO wrapped_counter
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT 0.000 188.780 4.000 189.980 ;
+        RECT 0.000 175.180 4.000 176.380 ;
     END
   END io_in[28]
   PIN io_in[29]
@@ -260,7 +260,7 @@ MACRO wrapped_counter
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT 0.000 194.900 4.000 196.100 ;
+        RECT 0.000 181.980 4.000 183.180 ;
     END
   END io_in[29]
   PIN io_in[2]
@@ -268,7 +268,7 @@ MACRO wrapped_counter
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT 0.000 29.660 4.000 30.860 ;
+        RECT 0.000 32.380 4.000 33.580 ;
     END
   END io_in[2]
   PIN io_in[30]
@@ -276,7 +276,7 @@ MACRO wrapped_counter
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT 0.000 201.020 4.000 202.220 ;
+        RECT 0.000 188.780 4.000 189.980 ;
     END
   END io_in[30]
   PIN io_in[31]
@@ -284,7 +284,7 @@ MACRO wrapped_counter
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT 0.000 207.140 4.000 208.340 ;
+        RECT 0.000 195.580 4.000 196.780 ;
     END
   END io_in[31]
   PIN io_in[32]
@@ -292,7 +292,7 @@ MACRO wrapped_counter
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT 0.000 213.260 4.000 214.460 ;
+        RECT 0.000 202.380 4.000 203.580 ;
     END
   END io_in[32]
   PIN io_in[33]
@@ -300,7 +300,7 @@ MACRO wrapped_counter
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT 0.000 219.380 4.000 220.580 ;
+        RECT 0.000 209.180 4.000 210.380 ;
     END
   END io_in[33]
   PIN io_in[34]
@@ -308,7 +308,7 @@ MACRO wrapped_counter
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT 0.000 225.500 4.000 226.700 ;
+        RECT 0.000 215.980 4.000 217.180 ;
     END
   END io_in[34]
   PIN io_in[35]
@@ -316,7 +316,7 @@ MACRO wrapped_counter
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT 0.000 231.620 4.000 232.820 ;
+        RECT 0.000 222.780 4.000 223.980 ;
     END
   END io_in[35]
   PIN io_in[36]
@@ -324,7 +324,7 @@ MACRO wrapped_counter
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT 0.000 237.740 4.000 238.940 ;
+        RECT 0.000 229.580 4.000 230.780 ;
     END
   END io_in[36]
   PIN io_in[37]
@@ -332,7 +332,7 @@ MACRO wrapped_counter
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT 0.000 243.860 4.000 245.060 ;
+        RECT 0.000 236.380 4.000 237.580 ;
     END
   END io_in[37]
   PIN io_in[3]
@@ -340,7 +340,7 @@ MACRO wrapped_counter
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT 0.000 35.780 4.000 36.980 ;
+        RECT 0.000 39.180 4.000 40.380 ;
     END
   END io_in[3]
   PIN io_in[4]
@@ -348,7 +348,7 @@ MACRO wrapped_counter
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT 0.000 41.900 4.000 43.100 ;
+        RECT 0.000 45.980 4.000 47.180 ;
     END
   END io_in[4]
   PIN io_in[5]
@@ -356,7 +356,7 @@ MACRO wrapped_counter
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT 0.000 48.020 4.000 49.220 ;
+        RECT 0.000 52.780 4.000 53.980 ;
     END
   END io_in[5]
   PIN io_in[6]
@@ -364,7 +364,7 @@ MACRO wrapped_counter
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT 0.000 54.140 4.000 55.340 ;
+        RECT 0.000 59.580 4.000 60.780 ;
     END
   END io_in[6]
   PIN io_in[7]
@@ -372,23 +372,23 @@ MACRO wrapped_counter
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT 0.000 60.260 4.000 61.460 ;
+        RECT 0.000 66.380 4.000 67.580 ;
     END
   END io_in[7]
   PIN io_in[8]
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER met3 ;
-        RECT 0.000 66.380 4.000 67.580 ;
+      LAYER met2 ;
+        RECT 25.250 246.000 25.810 250.000 ;
     END
   END io_in[8]
   PIN io_in[9]
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER met3 ;
-        RECT 0.000 72.500 4.000 73.700 ;
+      LAYER met2 ;
+        RECT 41.810 246.000 42.370 250.000 ;
     END
   END io_in[9]
   PIN io_oeb[0]
@@ -1024,25 +1024,31 @@ MACRO wrapped_counter
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT 0.000 5.180 4.000 6.380 ;
+        RECT 0.000 11.980 4.000 13.180 ;
     END
   END wb_clk_i
   OBS
       LAYER li1 ;
         RECT 5.520 10.795 244.260 236.725 ;
       LAYER met1 ;
-        RECT 3.750 6.840 245.570 236.880 ;
+        RECT 3.750 7.520 245.570 236.880 ;
       LAYER met2 ;
-        RECT 3.780 245.720 13.930 246.570 ;
-        RECT 15.050 245.720 41.530 246.570 ;
-        RECT 42.650 245.720 69.130 246.570 ;
-        RECT 70.250 245.720 96.730 246.570 ;
-        RECT 97.850 245.720 124.330 246.570 ;
-        RECT 125.450 245.720 151.930 246.570 ;
-        RECT 153.050 245.720 179.530 246.570 ;
-        RECT 180.650 245.720 207.130 246.570 ;
-        RECT 208.250 245.720 234.730 246.570 ;
-        RECT 235.850 245.720 245.540 246.570 ;
+        RECT 3.780 245.720 8.410 246.570 ;
+        RECT 9.530 245.720 24.970 246.570 ;
+        RECT 26.090 245.720 41.530 246.570 ;
+        RECT 42.650 245.720 58.090 246.570 ;
+        RECT 59.210 245.720 74.650 246.570 ;
+        RECT 75.770 245.720 91.210 246.570 ;
+        RECT 92.330 245.720 107.770 246.570 ;
+        RECT 108.890 245.720 124.330 246.570 ;
+        RECT 125.450 245.720 140.890 246.570 ;
+        RECT 142.010 245.720 157.450 246.570 ;
+        RECT 158.570 245.720 174.010 246.570 ;
+        RECT 175.130 245.720 190.570 246.570 ;
+        RECT 191.690 245.720 207.130 246.570 ;
+        RECT 208.250 245.720 223.690 246.570 ;
+        RECT 224.810 245.720 240.250 246.570 ;
+        RECT 241.370 245.720 245.540 246.570 ;
         RECT 3.780 4.280 245.540 245.720 ;
         RECT 4.470 4.000 6.570 4.280 ;
         RECT 7.690 4.000 9.790 4.280 ;
@@ -1120,81 +1126,7 @@ MACRO wrapped_counter
         RECT 239.530 4.000 241.630 4.280 ;
         RECT 242.750 4.000 244.850 4.280 ;
       LAYER met3 ;
-        RECT 4.000 233.220 176.230 236.805 ;
-        RECT 4.400 231.220 176.230 233.220 ;
-        RECT 4.000 227.100 176.230 231.220 ;
-        RECT 4.400 225.100 176.230 227.100 ;
-        RECT 4.000 220.980 176.230 225.100 ;
-        RECT 4.400 218.980 176.230 220.980 ;
-        RECT 4.000 214.860 176.230 218.980 ;
-        RECT 4.400 212.860 176.230 214.860 ;
-        RECT 4.000 208.740 176.230 212.860 ;
-        RECT 4.400 206.740 176.230 208.740 ;
-        RECT 4.000 202.620 176.230 206.740 ;
-        RECT 4.400 200.620 176.230 202.620 ;
-        RECT 4.000 196.500 176.230 200.620 ;
-        RECT 4.400 194.500 176.230 196.500 ;
-        RECT 4.000 190.380 176.230 194.500 ;
-        RECT 4.400 188.380 176.230 190.380 ;
-        RECT 4.000 184.260 176.230 188.380 ;
-        RECT 4.400 182.260 176.230 184.260 ;
-        RECT 4.000 178.140 176.230 182.260 ;
-        RECT 4.400 176.140 176.230 178.140 ;
-        RECT 4.000 172.020 176.230 176.140 ;
-        RECT 4.400 170.020 176.230 172.020 ;
-        RECT 4.000 165.900 176.230 170.020 ;
-        RECT 4.400 163.900 176.230 165.900 ;
-        RECT 4.000 159.780 176.230 163.900 ;
-        RECT 4.400 157.780 176.230 159.780 ;
-        RECT 4.000 153.660 176.230 157.780 ;
-        RECT 4.400 151.660 176.230 153.660 ;
-        RECT 4.000 147.540 176.230 151.660 ;
-        RECT 4.400 145.540 176.230 147.540 ;
-        RECT 4.000 141.420 176.230 145.540 ;
-        RECT 4.400 139.420 176.230 141.420 ;
-        RECT 4.000 135.300 176.230 139.420 ;
-        RECT 4.400 133.300 176.230 135.300 ;
-        RECT 4.000 129.180 176.230 133.300 ;
-        RECT 4.400 127.180 176.230 129.180 ;
-        RECT 4.000 123.060 176.230 127.180 ;
-        RECT 4.400 121.060 176.230 123.060 ;
-        RECT 4.000 116.940 176.230 121.060 ;
-        RECT 4.400 114.940 176.230 116.940 ;
-        RECT 4.000 110.820 176.230 114.940 ;
-        RECT 4.400 108.820 176.230 110.820 ;
-        RECT 4.000 104.700 176.230 108.820 ;
-        RECT 4.400 102.700 176.230 104.700 ;
-        RECT 4.000 98.580 176.230 102.700 ;
-        RECT 4.400 96.580 176.230 98.580 ;
-        RECT 4.000 92.460 176.230 96.580 ;
-        RECT 4.400 90.460 176.230 92.460 ;
-        RECT 4.000 86.340 176.230 90.460 ;
-        RECT 4.400 84.340 176.230 86.340 ;
-        RECT 4.000 80.220 176.230 84.340 ;
-        RECT 4.400 78.220 176.230 80.220 ;
-        RECT 4.000 74.100 176.230 78.220 ;
-        RECT 4.400 72.100 176.230 74.100 ;
-        RECT 4.000 67.980 176.230 72.100 ;
-        RECT 4.400 65.980 176.230 67.980 ;
-        RECT 4.000 61.860 176.230 65.980 ;
-        RECT 4.400 59.860 176.230 61.860 ;
-        RECT 4.000 55.740 176.230 59.860 ;
-        RECT 4.400 53.740 176.230 55.740 ;
-        RECT 4.000 49.620 176.230 53.740 ;
-        RECT 4.400 47.620 176.230 49.620 ;
-        RECT 4.000 43.500 176.230 47.620 ;
-        RECT 4.400 41.500 176.230 43.500 ;
-        RECT 4.000 37.380 176.230 41.500 ;
-        RECT 4.400 35.380 176.230 37.380 ;
-        RECT 4.000 31.260 176.230 35.380 ;
-        RECT 4.400 29.260 176.230 31.260 ;
-        RECT 4.000 25.140 176.230 29.260 ;
-        RECT 4.400 23.140 176.230 25.140 ;
-        RECT 4.000 19.020 176.230 23.140 ;
-        RECT 4.400 17.020 176.230 19.020 ;
-        RECT 4.000 12.900 176.230 17.020 ;
-        RECT 4.400 10.900 176.230 12.900 ;
-        RECT 4.000 10.715 176.230 10.900 ;
+        RECT 15.245 10.715 176.230 236.805 ;
   END
 END wrapped_counter
 END LIBRARY
