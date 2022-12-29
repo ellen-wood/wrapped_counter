@@ -103,8 +103,8 @@ jobs:
     - name: test module
       run: python $HOME/multi_project_tools/multi_tool.py --test-module
 
-    - name: prove wrapper
-      run: python $HOME/multi_project_tools/multi_tool.py --prove-wrapper
+    # - name: prove wrapper
+     # run: python $HOME/multi_project_tools/multi_tool.py --prove-wrapper
 
     - name: lvs
       run: python $HOME/multi_project_tools/multi_tool.py --test-lvs 
