@@ -8,16 +8,17 @@ project:
   license: LICENSE
   waive_caravel: 'no caravel test for modified wrapper'
   waive_module_test:  'no module test for modified wrapper'
+  waive_ports_test: 'nothing in the top level verilog, yosys fails to get port list'
 
 # optional interfaces you want to use: gpio, la1, la2, la3, irq, clk2, wishbone & openram
-interfaces: ['gpio']
+interfaces: ['gpio', 'analog']
 
 # test within caravel
 caravel_test:
   recipe: "coco_test"
   directory: "caravel_test"
-  id: 1
-  module_name: "wrapped_counter"
+  id: 5
+  module_name: "wrapper_squared"
 
 # module test
 module_test:
@@ -36,12 +37,11 @@ openlane:
 
 # source required for various configs and module instantiation
 source:
-    - wrapper.v
-    - counter/src/counter.v
+    - "final_mixed_signal_top/verilog/wrapper_squared.v"
 
 # gds - check nothing on metal 5, DRC & LVS
 final:
-  directory: "final"
-  gds_filename: "gds/wrapped_counter.gds"
-  lvs_filename: "verilog/gl/wrapped_counter.v"
-  lef_filename: "lef/wrapped_counter.lef"
+  directory: "final_mixed_signal_top"
+  gds_filename: "gds/wrapper_squared.gds"
+  lvs_filename: "verilog/wrapper_squared.v"
+  lef_filename: "lef/wrapper_squared.lef"
